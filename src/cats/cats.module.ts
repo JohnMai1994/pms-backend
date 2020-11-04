@@ -6,13 +6,16 @@ import { CatScheme } from './cats.schema';
 
 
 @Module({
-  providers: [CatsService],
-  controllers: [CatsController],
   // add
   imports: [MongooseModule.forFeature(
       [{name: "Cat", schema: CatScheme}]
 
-  )]
+  )],
+
+  providers: [CatsService],
+  controllers: [CatsController],
+
+
 
 })
 export class CatsModule {}
