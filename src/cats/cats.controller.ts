@@ -41,9 +41,9 @@ export class CatsController {
                 reason: "Something on Connecting Your Database",
                 result: {e}
             }
-        } finally {
-            return res;
         }
+        return res;
+
     }
 
     @Post()
@@ -67,9 +67,8 @@ export class CatsController {
                 result: {e}
             }
 
-        } finally {
-            return res
         }
+        return res
 
 
     }
@@ -95,9 +94,9 @@ export class CatsController {
                 reason: "Something on Connecting Your Database",
                 result: {e}
             }
-        } finally {
-            return res
         }
+        return res
+
     }
 
     @Put(':id')
@@ -121,9 +120,9 @@ export class CatsController {
                 reason: "Something on Connecting Your Database",
                 result: {e}
             }
-        } finally {
-            return res
         }
+        return res
+
     }
 
 
@@ -146,9 +145,8 @@ export class CatsController {
                 reason: "Something on Connecting Your Database",
                 result: {e}
             }
-        } finally {
-            return res
         }
+        return res
 
 
     }
