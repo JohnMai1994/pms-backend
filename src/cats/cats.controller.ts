@@ -129,11 +129,11 @@ export class CatsController {
 
     @Delete(':id')
     @ApiOperation({summary: "删除猫", description: "删除一只猫"})
-    remove(@Param("id") id: string) {
+    async remove(@Param("id") id: string) {
         let res;
 
         try {
-            this.catsService.remove(id)
+            await this.catsService.remove(id)
             res =
                 {
                     error_code: 0,
