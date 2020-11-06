@@ -5,6 +5,7 @@ export const computerEquipmentSchema = new mongoose.Schema({
     position: String,
     system: String,
     cpu: String,
+    store: String,
     ram: String,
     condition: String,
     usageYear: String,
