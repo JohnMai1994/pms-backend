@@ -10,14 +10,6 @@ export class CatsController {
     constructor(private readonly catsService: CatsService) {
     }
 
-
-    @Get("/test")
-    @ApiOperation({summary: "测试路径", description: "单纯的测试一下"})
-    async test() {
-        return {id: 333}
-
-    }
-
     @Get()
     @ApiOperation({summary: "全部猫", description: "获取全部猫"})
     async getAll() {

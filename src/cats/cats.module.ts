@@ -13,8 +13,6 @@ import {CatScheme} from './cats.schema';
 
     providers: [CatsService],
     controllers: [CatsController],
-
-
 })
 export class CatsModule {
 }
