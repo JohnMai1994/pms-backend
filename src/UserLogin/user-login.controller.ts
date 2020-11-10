@@ -44,10 +44,11 @@ export class UserLoginController {
         const user = await this.userLoginService.findByName(userLoginInterface.username)
 
         if (user[0] === undefined) {
-            return false
+            return {value:false}
         } else {
             const realPassword = await user[0].password
-            return !(inputPassword !== realPassword)
+            const res = {value: !(inputPassword !== realPassword)}
+            return res;
         }
     }
 
