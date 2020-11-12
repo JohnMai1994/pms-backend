@@ -51,6 +51,6 @@ $ npm run start:prod
 ## After install
 
 - You can go to http://[ip]:[port]/api-docs (http://127.0.0.1:3000/api-docs) to check all the api document
-- Used my ![pms-frontend]:https://github.com/JohnMai1994/pms-frontend
+- Used my [pms-frontend](https://github.com/JohnMai1994/pms-frontend) and install it
 
 ## Enjoy and Have Fun
