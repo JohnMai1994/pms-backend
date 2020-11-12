@@ -24,9 +24,10 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Before Install
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- Ensure you have Npm/Yarn & Node
+- Ensure you install mongodb and mongoose
 
 ## Installation
 
@@ -47,29 +48,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## After install
 
-```bash
-# unit tests
-$ npm run test
+- You can go to http://[ip]:[port]/api-docs (http://127.0.0.1:3000/api-docs) to check all the api document
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+## Enjoy and Have Fun
